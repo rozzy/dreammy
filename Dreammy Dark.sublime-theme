@@ -150,7 +150,7 @@
     {
         "class": "tabset_control",
         "settings": ["flatland_square_tabs"],
-        "layer0.texture": "Theme - Flatland/Flatland Dark/square/tabset-background.png",
+        "layer0.texture": "Theme - Dreammy/Dreammy Dark/square/tabset-background.png",
         "content_margin": [0, 0, 0, 0]
         // "tab_overlap": 5
     },
@@ -318,7 +318,7 @@
 
     {
         "class": "sheet_container_control",
-        "layer0.tint": [38,41,44],
+        "layer0.tint": [0,0,0],
         "layer0.opacity": 1.0
     },
 
@@ -418,9 +418,9 @@
     // Sidebar container
     {
         "class": "sidebar_container",
-        "layer0.tint": [49, 52 ,55],
+        "layer0.tint": [63, 100, 120],
         "layer0.opacity": 1.0,
-        "layer0.draw_center": false,
+        "layer0.draw_center": true,
         "layer0.inner_margin": [0, 0, 0, 0],
         "content_margin": [0, 0, 0, 0]
     },
@@ -428,17 +428,18 @@
     {
         "class": "sidebar_tree",
         "row_padding": [8, 4],
-        "indent": 14,
+        "indent": 15,
         "indent_offset": 20,
         "indent_top_level": false,
-        "layer0.tint": [49, 52, 55],
+        "layer0.tint": [63, 100, 120],
         "layer0.opacity": 1.0,
         "dark_content": false
     },
     // Sidebar rows
     {
         "class": "tree_row",
-        "layer0.texture": "Theme - Flatland/Flatland Dark/sidebar-row-selected.png",
+        "layer0.texture": "Theme - Flatland/Flatland Dark/code-completion-row-selected.png",
+        "color": [148, 149, 151],
         "layer0.opacity": 0.0,
         "layer0.inner_margin": [1,1]
     },
